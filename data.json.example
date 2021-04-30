@@ -1,0 +1,258 @@
+{
+	"SupportedLanguages": [
+		{
+			"name": "en",
+			"flag": "🇬🇧"
+		},
+		{
+			"name": "fr",
+			"flag": "🇫🇷"
+		}
+	],
+	"Informations": {
+		"name": "John Snow",
+		"description": {
+			"fr": "Chevalier à ses heures perdues",
+			"en": "Knight during free time"
+		},
+		"ProfilePicLink": "img/SquarePic.jpg",
+		"aboutMe": {
+			"fr": "Bla bla bla ... Winterfell .. Bla bla bla Throne",
+			"en": "Bla bla bla ... Winterfell .. Bla bla bla Throne"
+		},
+		"title": {
+			"fr": "A propos de moi",
+			"en": "About me"
+		},
+		"listInformations": [
+			{
+				"class": "date",
+				"link": "",
+				"text": {
+					"fr": "Long time ago",
+					"en": ""
+				}
+			},
+			{
+				"class": "phone",
+				"link": "tel:+Nop",
+				"text": {
+					"fr": "+Nop",
+					"en": ""
+				}
+			},
+			{
+				"class": "mail",
+				"link": "mailto:John.Snow@Winterfell.com",
+				"text": {
+					"fr": "John.Snow@Winterfell.com",
+					"en": ""
+				}
+			},
+			{
+				"class": "address",
+				"link": "",
+				"text": {
+					"fr": "Winterfell",
+					"en": ""
+				}
+			},
+			{
+				"class": "address",
+				"link": "",
+				"text": {
+					"fr": "Le mur",
+					"en": "The Wall"
+				}
+			},
+			{
+				"class": "car",
+				"link": "",
+				"text": {
+					"fr": "Permis cheval",
+					"en": "Horse riding license"
+				}
+			},
+			{
+				"class": "linkedIn car address mail phone date",
+				"link": "",
+				"text": {
+					"fr": "sample",
+					"en": ""
+				}
+			}
+		]
+	},
+	"FormationDiplomes": {
+		"title": {
+			"fr": "Formation et diplômes",
+			"en": "Study and diploma"
+		},
+		"id": "FormationDiplomes",
+		"items": [
+			{
+				"time": "Long time ago",
+				"data": {
+					"fr": "Chevalier",
+					"en": "Knight"
+				}
+			}
+		]
+	},
+	"ExperiencesProfessionnelles": {
+		"title": {
+			"fr": "Expériences professionnelles",
+			"en": "Professional experiences"
+		},
+		"id": "ExperiencesProfessionnelles",
+		"items": [
+			{
+				"time": "Long time ago +1",
+				"data": {
+					"fr": "Garde du mur",
+					"en": "Wall knight"
+				},
+				"employeur": "Westeros"
+			}
+		]
+	},
+	"Competences": {
+		"title": {
+			"fr": "Compétences",
+			"en": "Skills"
+		},
+		"id": "Competences",
+		"items": [
+			{
+				"title": {
+					"fr": "Connaissances approfondies",
+					"en": "Extensive knowledge"
+				},
+				"items": [
+					{
+						"text": {
+							"fr": "Sword",
+							"en": ""
+						},
+						"link": "",
+						"altLinkPrint": ""
+					},
+					{
+						"text": {
+							"fr": "Death fight",
+							"en": ""
+						},
+						"link": "",
+						"altLinkPrint": ""
+					}
+				]
+			},
+			{
+				"title": {
+					"fr": "Hobby",
+					"en": "Hobby"
+				},
+				"items": [
+					{
+						"text": {
+							"fr": "Vol en dragon",
+							"en": "Dragon flight"
+						},
+						"link": "",
+						"altLinkPrint": ""
+					}
+				]
+			}
+		]
+	},
+	"Travaux": {
+		"title": {
+			"fr": "Travaux",
+			"en": "Works"
+		},
+		"id": "Travaux",
+		"items": [
+			{
+				"icon": "🔨",
+				"languages": [
+					"Marteau"
+				],
+				"text": {
+					"fr": "Construire",
+					"en": "Building things"
+				},
+				"link": "",
+				"altLinkPrint": ""
+			}
+		]
+	},
+	"ProjetsPersonnels": {
+		"title": {
+			"fr": "Projets personnels",
+			"en": "Personal projects"
+		},
+		"id": "ProjetsPersonnels",
+		"items": [
+			{
+				"text": {
+					"fr": "Agrandissement de Westeros",
+					"en": "Westeros extension"
+				},
+				"languages": [
+					"...",
+					"...2"
+				],
+				"link": "",
+				"altLinkPrint": "",
+				"icon": "⚔"
+			}
+		]
+	},
+	"Langues": {
+		"title": {
+			"fr": "Langues",
+			"en": "Languages"
+		},
+		"id": "Langues",
+		"items": [
+			{
+				"language": {
+					"fr": "Haut valyrien",
+					"en": "Valyrian languages "
+				},
+				"level": {
+					"fr": "Bon niveau",
+					"en": "High level"
+				}
+			}
+		]
+	},
+	"Palmares": {
+		"title": {
+			"fr": "Palmarès",
+			"en": "Prize list"
+		},
+		"id": "Palmares",
+		"items": [
+			{
+				"year": "Long time age +2",
+				"results": [
+					{
+						"text": {
+							"fr": "A tué un marcheur blanc",
+							"en": "Killed the death walkers"
+						},
+						"specialClass": "first"
+					},
+					{
+						"text": {
+							"fr": "A tué un marcheur blanc",
+							"en": "Killed the death walkers"
+						},
+						"specialClass": "first second world europe"
+					}
+				]
+			}
+		]
+	}
+}
