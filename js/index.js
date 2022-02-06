@@ -64,7 +64,7 @@ const proceedData = function (data, lang = urlLang) {
 				valueIndexN,
 				lang
 			)), "") + `</div> `;
-			
+
 	document.querySelector("#Competences").innerHTML = `<h3>${data.Competences.title[lang]}</h3>` + skills;
 
 	let majorWork = templates.MajorWorkTemplate(
@@ -103,8 +103,7 @@ const proceedData = function (data, lang = urlLang) {
 	document.querySelector("#informations").innerHTML = details;
 
 	document.querySelector("#APropos").innerHTML = `<h3>${data.Informations.title[lang] || data.Informations.title["fr"]}</h3>
-	<p>${data.Informations.aboutMe[lang] || data.Informations.aboutMe["fr"]}
-	</p>`
+	<p>${data.Informations.aboutMe[lang] || data.Informations.aboutMe["fr"]}</p>`
 	document.querySelector("#profilePic").src = data.Informations.ProfilePicLink;
 	document.querySelector("#JobDescription").innerHTML = data.Informations.description[lang] || data.Informations.description["fr"];
 	document.querySelector("#name").innerHTML = data.Informations.name;
